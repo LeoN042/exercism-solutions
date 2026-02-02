@@ -1,0 +1,19 @@
+# Ignore Exercism metadata
+.exercism/
+
+# Ignore test framework and exercise-provided files
+**/test-framework/
+**/HELP.md
+**/README.md
+**/makefile
+**/Makefile
+**/test_*.c
+
+# Ignore build outputs
+**/tests.out
+**/memcheck.out
+**/*.o
+**/*.out
+**/*.exe
+**/*.dSYM/
+**/.DS_Store
